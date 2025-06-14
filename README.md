@@ -12,4 +12,4 @@
 
 # Main Project Overview
 
-A collection of resourse used to install AI related stuff
+A collection of resources used to install AI related stuff
