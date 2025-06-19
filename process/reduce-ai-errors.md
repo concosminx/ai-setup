@@ -12,9 +12,9 @@ Be sure to include:
   * Things that you don't want to build
   * Ask it to research a comparable, existing app (if applicable)
 
-We then take these and head over to ChatGPT (o3 or better recommended) and ask it to:
+We then take these and head over to ChatGPT and ask it to:
 
-```sh
+```markdown
 I would like to create concise functional requirements for the following application:
 ...
 Output as markdown code.
@@ -85,7 +85,7 @@ Unfortunately, most people don't want to share this prompt ― if you nail this,
 
 Let me show you. Open up Claude / Anthropic Console, select the claude-3.7-sonnet model or newer and use this prompt to create a PRD file:
 
-```sh
+```markdown
 You are an expert technical product manager specializing in feature development and creating comprehensive product requirements documents (PRDs). Your task is to generate a detailed and well-structured PRD based on the following instructions:
 
 <prd_instructions>
@@ -187,7 +187,7 @@ Now that we have the MCP server & codebase set up, we can initialize TaskMaster 
 1. Paste the PRD output from above into a new file under scripts/prd.txt.
 2. In a Cursor Chat, paste the following prompt:
 
-```sh
+```markdown
 I've initialized a new project with Claude Task Master. I have a PRD at scripts/prd.txt.
 Can you parse it and set up initial tasks?
 ```
@@ -196,7 +196,7 @@ This will transform your PRD file into a series of files (under /tasks), plus a 
 
 3. Analyze Complexity. Now, we will ask Taskmaster AI to analyze the complexity of the tasks. This will use Perplexity to do web research and decide on a complexity score from 1-10.
 
-```sh
+```markdown
 Can you analyze the complexity of our tasks to help me understand which ones need to be broken down further?
 ```
 
@@ -207,7 +207,7 @@ You can reply with Please break down the identified tasks into subtasks. and it 
 It is also possible to break down individual tasks if you see some that are too complex.
 Ideally, you'd break down tasks in units that seem easy to implement to you as a hooman. If somethings seems complex to you, it'll probably be complex for the AI too.
 
-```sh
+```markdown
 Task 3 seems complex. Can you break it down into subtasks?
 ```
 
@@ -218,7 +218,7 @@ If you missed something, don't worry. You can always add tasks later or change d
 
 * add a new task
 
-```sh
+```markdown
 Let's add a new task. We should implement sorting of the timeline.
 Here are the requirements:
 
@@ -229,7 +229,7 @@ Here are the requirements:
 
 * change direction of a task
 
-```sh
+```markdown
 There should be a change in the image generation task.
 Can you update task 3 with this and set it back to pending?
 
@@ -238,7 +238,7 @@ The image generation should use gpt-image-1 as the model.
 
 * deprecate a task
 
-```sh
+```markdown
 Task 8 is not needed anymore. You can remove it.
 ```
 
@@ -263,7 +263,7 @@ AI is not great at handling large files. So if you have a file that is larger th
 
 Here's a prompt you can use:
 
-```sh
+```markdown
 Break down this file into logical modules so it's easier to ready.
 Create directories if needed and move utils and interfaces to separate files, maintaining a domain-driven file structure.
 ```
@@ -277,7 +277,7 @@ So what you can do is create a new task for the bug and implement it.
 
 Here's a prompt you can use:
 
-```sh
+```markdown
 The filter feature is not working as expected. Create a new task to fix it:
 - the filter should be case insensitive
 - it should work with pagination
