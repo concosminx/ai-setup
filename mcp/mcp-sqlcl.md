@@ -5,10 +5,14 @@
 2. Download SQLcl from [here](https://www.oracle.com/database/sqldeveloper/technologies/sqlcl/download/)
 
 3. [Optional] Install an Oracle Database - check [Docker images](https://github.com/oracle/docker-images/tree/main/OracleDatabase) and [Oracle repository](https://container-registry.oracle.com)
-   
-5. [Optional] Install an Oracle Sample Schema - check [schemas here](https://github.com/oracle-samples/db-sample-schemas)
 
-6. Create an MCP compatible connection using the `SQLcl`
+```cmd
+docker run --name xe11 -p 1521:1521 -e ORACLE_PWD=admin oracle/database:11.2.0.2
+```
+   
+4. [Optional] Install an Oracle Sample Schema - check [schemas here](https://github.com/oracle-samples/db-sample-schemas)
+
+5. Create an MCP compatible connection using the `SQLcl`
 ```sh
 # Launch SQLcl
 sql /nolog
@@ -31,7 +35,7 @@ cm delete -conn tom
 
 ```
 
-7. Setup in Visual Studio Code:
+6. Setup in Visual Studio Code:
 - install `Oracle SQL Developer Extension for VSCode` and create a connection
 
 - add the MCP server
