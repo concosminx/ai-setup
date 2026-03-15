@@ -1,94 +1,130 @@
+# AI Blog Generation Prompts for Hugo (Repo-aware version)
+
+These prompts are used by the AI agent inside the Hugo source repository.
+
+The AI has access to project files and must read existing posts from the content folder.
+
+Blog posts are located in:
+
+/content
+/content/posts
+/content/tech
+/content/blog
+
+The AI must analyze existing posts before generating a new one.
+
+Workflow:
+
+1. Generate English post
+2. Wait for approval
+3. Generate Romanian version
+4. Generate image prompt
+
 ---
-author: Me
-categories:
-- tech
-cover:
-  alt: "`<short alt text>`{=html}"
-  image: img/`<generated-image-name>`{=html}.png
-date: "\\<AUTO GENERATE CURRENT DATE WITH TIMEZONE +02:00\\>"
-description: "`<SHORT DESCRIPTION>`{=html}"
-draft: false
-showToc: true
-tags:
-- tag1
-- tag2
-- tag3
-title: "`<GENERATE TITLE>`{=html}"
-TocOpen: false
----
 
-# AI Blog Generation Prompts for Hugo
+## Prompt 1 — Generate New Blog Post (English)
 
-## Prompt 1 --- Generate New Blog Post (English)
+You are an AI working inside a Hugo website repository.
 
-You are an AI that writes blog posts for my Hugo static website.
+You have access to the source code.
 
-You MUST generate a new blog post that follows EXACTLY the same format,
-structure, and writing style as the example I provide.
+You MUST read existing blog posts from the content folder and match their format.
 
-IMPORTANT RULES:
+TASK:
 
-1.  Write the post in ENGLISH.
-2.  Use the EXACT same front matter fields as the example.
-3.  Keep the same order of fields.
-4.  Keep the same formatting style.
-5.  Tags must be in English.
-6.  Categories must be in English.
-7.  showToc, TocOpen, author, cover format must stay identical.
-8.  The cover image name must be generated based on the post topic.
-9.  The post must be original but similar in style.
-10. Use technical tutorial style like the example.
-11. Use Markdown.
-12. Do NOT generate Romanian yet.
-13. Do NOT explain anything.
-14. Output ONLY the post.
+Create a new blog post.
 
-FRONT MATTER FORMAT TO FOLLOW EXACTLY:
+REQUIREMENTS:
 
-STYLE EXAMPLE:
-
-`<PASTE EXISTING POST HERE>`{=html}
-
-NEW POST THEME: `<WRITE THE NEW THEME HERE>`{=html}
-
-## Prompt 2 --- Generate Romanian Version
-
-Create the Romanian version of the previously generated blog post.
+- Read at least 2 existing posts from /content
+- Detect front matter format
+- Detect field order
+- Detect writing style
+- Detect tag format
+- Detect cover format
+- Detect markdown style
 
 RULES:
 
-1.  Translate content to Romanian.
-2.  Keep front matter format identical.
-3.  Keep the same date.
-4.  Keep tags in English.
-5.  Keep categories in English.
-6.  Translate title.
-7.  Translate description.
-8.  Translate content naturally.
-9.  Keep Markdown formatting identical.
-10. Do not modify code blocks.
-11. Do not change cover image name.
-12. Output ONLY the Romanian post.
+1. Write in ENGLISH
+2. Use identical front matter structure
+3. Keep same fields
+4. Keep same order
+5. Keep tags in English
+6. Keep categories in English
+7. Use same author
+8. Use same showToc / TocOpen values
+9. Generate new cover image name
+10. Follow same writing style
+11. Use Markdown
+12. Do NOT generate Romanian yet
+13. Output ONLY the post
 
-## Prompt 3 --- Generate Cover Image Prompt
+Front matter must look like existing posts.
 
-Create an AI image prompt for a blog post cover.
+NEW POST THEME:
 
-Blog post title: "`<POST TITLE>`{=html}"
+<WRITE THE THEME HERE>
 
-Topic: `<SHORT DESCRIPTION>`{=html}
+OUTPUT:
 
-Requirements:
+Return only the new post.
+No explanations.
+No comments.
+No extra text.
 
--   realistic
--   modern tech style
--   clean background
--   high detail
--   cinematic lighting
--   16:9 ratio
--   no text
--   no watermark
--   no logo
--   suitable for tech blog cover
+---
+
+## Prompt 2 — Generate Romanian Version
+
+Use this ONLY after the English post is approved.
+
+Translate the last generated post to Romanian.
+
+RULES:
+
+- Keep front matter identical
+- Keep same date
+- Keep same tags (English)
+- Keep same categories (English)
+- Translate title
+- Translate description
+- Translate content naturally
+- Keep markdown formatting
+- Keep code blocks unchanged
+- Keep cover image unchanged
+
+OUTPUT:
+
+Return only the Romanian post.
+
+---
+
+## Prompt 3 — Generate Image Prompt
+
+Generate an AI image prompt for the blog cover.
+
+INPUT:
+
+Post title:
+<POST TITLE>
+
+Post topic:
+<SHORT DESCRIPTION>
+
+STYLE:
+
+- realistic
+- tech blog style
+- modern
+- clean
+- cinematic lighting
+- high detail
+- 16:9
+- no text
+- no watermark
+- no logo
+
+OUTPUT:
 
 Return only the image generation prompt.
