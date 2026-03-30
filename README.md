@@ -1,3 +1,4 @@
+
 # Table of Contents
 
 | Section | Description |
@@ -10,6 +11,14 @@
 | [n8n](./n8n/README.md) | How to install n8n with Docker and Docker Compose |
 | [uv](./uv/README.md) | How to install the uv package manager |
 | [TaskMaster AI](./taskmaster-ai/README.md) | How to install TaskMaster AI |
+| [Skills](./skills/README.md) | AI/automation skills and resources |
+| [Agents](./agents/) | Custom agents and agent-related resources |
+| [Claude Commands](./claude-commands/) | Claude command scripts and workflows |
+| [Claude Markdown](./claude-md/) | Claude markdown templates and docs |
+| [MCP](./mcp/) | Model Context Protocol resources |
+| [Process](./process/) | Project process documentation |
+| [Prompts](./prompts/) | Prompt engineering resources |
+
 
 # Main Project Overview
 
