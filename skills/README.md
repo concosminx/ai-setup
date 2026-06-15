@@ -79,3 +79,5 @@ npx skills add https://github.com/googleworkspace/cli
 - Awesome-Skills
   - javascript-mastery: `npx skills add https://github.com/sickn33/antigravity-awesome-skills --skill javascript-mastery`
  
+- Matt Pocock skills
+  - `npx skills@latest add mattpocock/skills`
