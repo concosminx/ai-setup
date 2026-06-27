@@ -1,5 +1,6 @@
 ## Useful AI/Automation Skills Repositories
 
+- [mattpocock/skills](https://github.com/mattpocock/skills): These skills are designed to be small, easy to adapt, and composable
 - [obra/superpowers](https://github.com/obra/superpowers): A collection of scripts and tools to enhance developer productivity and automation, providing "superpowers" for various workflows.
 - [GWUDCAP/cc-sessions](https://github.com/GWUDCAP/cc-sessions): Resources and session materials from the GWU Data, Code, and Policy (DCAP) group, focused on collaborative coding and data science practices.
 - [ayoubben18/ab-method](https://github.com/ayoubben18/ab-method): Implementation and resources for the AB-Method, a technique for data analysis and machine learning experimentation.
@@ -14,12 +15,31 @@
 
 
 ## Install skills
+### Anthropic Skills:
+- pdf `npx skills add https://github.com/anthropics/skills --skill pdf`
+- docx `npx skills add https://github.com/anthropics/skills --skill docx`
+- pptx `npx skills add https://github.com/anthropics/skills --skill pptx`
+- xlsx `npx skills add https://github.com/anthropics/skills --skill xlsx`
+- canvas-design `npx skills add https://github.com/anthropics/skills --skill canvas-design`
+- internal-comms `npx skills add https://github.com/anthropics/skills --skill internal-comms`
+- frontend-design `npx skills add https://github.com/anthropics/skills --skill frontend-design`
+- doc-coauthoring `npx skills add https://github.com/anthropics/skills --skill doc-coauthoring`
+- skill-creator `npx skills add https://github.com/anthropics/skills --skill skill-creator`
+- web-artifacts-builder `npx skills add https://github.com/anthropics/skills --skill web-artifacts-builder`
+- slack-gif-creator `npx skills add https://github.com/anthropics/skills --skill slack-gif-creator`
 
-- Code Reviewer: `npx claude-code-templates@latest --skill development/code-reviewer`
-- Excalidraw Diagram Generator: `npx skills add https://github.com/coleam00/excalidraw-diagram-skill --skill excalidraw-diagram`
+### Awesome-Skills
+- javascript-mastery: `npx skills add https://github.com/sickn33/antigravity-awesome-skills --skill javascript-mastery`
+ 
+### Matt Pocock skills
+- `npx skills@latest add mattpocock/skills`
+- see also [5 Agent Skills I Use Every Day](https://www.aihero.dev/5-agent-skills-i-use-every-day)
+ 
 
-How to use: 
+### Excalidraw Diagram Generator: 
+- `npx skills add https://github.com/coleam00/excalidraw-diagram-skill --skill excalidraw-diagram`
 
+- How to use: 
 ```html
 Create an Excalidraw diagram showing how a request flows through
 our API gateway, auth middleware, and downstream services
@@ -29,7 +49,7 @@ Draw a sequence diagram for our OAuth2 PKCE flow including
 the browser, authorization server, and resource server
 ```
 
-- Google Workspace (GWS) Skills
+### Google Workspace (GWS) Skills
 
 ```sh
 # Install
@@ -41,43 +61,6 @@ gws mcp -s drive,gmail,calendar,sheets
 npx skills add https://github.com/googleworkspace/cli
 
 # Claude now has direct access to these APIs
-```
-
-- Shannon - Autonomous AI Pentester: `npx skills add unicodeveloper/shannon`
-
-```sh
-# Full pentest of a local app
-
-/shannon http://localhost:3000 myapp
-
-# Target specific vulnerability categories
-/shannon - scope=xss,injection http://localhost:8080 frontend
-
-# Named workspace (for resuming if interrupted)
-/shannon - workspace=audit-q1 http://staging.example.com backend-api
-
-# Check status of a running pentest
-/shannon status
-
-# View the latest report
+```# View the latest report
 /shannon results
 ```
-
-- Anthropic Skills:
-  - pdf `npx skills add https://github.com/anthropics/skills --skill pdf`
-  - docx `npx skills add https://github.com/anthropics/skills --skill docx`
-  - pptx `npx skills add https://github.com/anthropics/skills --skill pptx`
-  - xlsx `npx skills add https://github.com/anthropics/skills --skill xlsx`
-  - canvas-design `npx skills add https://github.com/anthropics/skills --skill canvas-design`
-  - internal-comms `npx skills add https://github.com/anthropics/skills --skill internal-comms`
-  - frontend-design `npx skills add https://github.com/anthropics/skills --skill frontend-design`
-  - doc-coauthoring `npx skills add https://github.com/anthropics/skills --skill doc-coauthoring`
-  - skill-creator `npx skills add https://github.com/anthropics/skills --skill skill-creator`
-  - web-artifacts-builder `npx skills add https://github.com/anthropics/skills --skill web-artifacts-builder`
-  - slack-gif-creator `npx skills add https://github.com/anthropics/skills --skill slack-gif-creator`
-
-- Awesome-Skills
-  - javascript-mastery: `npx skills add https://github.com/sickn33/antigravity-awesome-skills --skill javascript-mastery`
- 
-- Matt Pocock skills
-  - `npx skills@latest add mattpocock/skills`
