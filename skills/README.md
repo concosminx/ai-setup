@@ -22,6 +22,13 @@
 - [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem): Persistent Context Across Sessions for Every Agent
 - [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core): Git. Ship. Done - Core
 - [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman): Caveman
+- [wshobson/commands](https://github.com/wshobson/commands): A collection of production-ready slash commands for Claude Code
+- [snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks): A simple task management system for managing AI dev agents
+- [automazeio/ccpm](https://github.com/automazeio/ccpm): Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.
+- [ruvnet/ruflo](https://github.com/ruvnet/ruflo): The leading agent meta-harness.
+- [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills): A single CLAUDE.md file to improve Claude Code behavior
+- [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides): Create beautiful slides on the web using a coding agent's frontend skills
+- [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline): Beautiful highly customizable statusline for Claude Code CLI
 - 
 
 ## Install skills
