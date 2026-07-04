@@ -1,4 +1,4 @@
-## Useful AI/Automation Skills Repositories
+## Useful AI/Automation Repositories
 
 - [mattpocock/skills](https://github.com/mattpocock/skills): These skills are designed to be small, easy to adapt, and composable
 - [obra/superpowers](https://github.com/obra/superpowers): A collection of scripts and tools to enhance developer productivity and automation, providing "superpowers" for various workflows.
@@ -14,6 +14,14 @@
 - [anthropics/skills](https://github.com/anthropics/skills): A collection of skills, templates, and resources for enhancing Claude and other AI agent capabilities.
 - [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev): Ready to use UI transitions
 - [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph): Turns natural language descriptions into polished SVG diagrams
+- [ksimback/looper](https://github.com/ksimback/looper): Design visual, review-gated agent loops for Claude Code before you run them
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web
+- [garrytan/gstack](https://github.com/garrytan/gstack): Opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
+- [remotion-dev/remotion](https://github.com/remotion-dev/remotion): Video tools for the agent era
+- [rebelytics/one-skill-to-rule-them-all](https://github.com/rebelytics/one-skill-to-rule-them-all): The meta-skill that builds and improves all your skills
+- [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem): Persistent Context Across Sessions for Every Agent
+- [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core): Git. Ship. Done - Core
+- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman): Caveman
 - 
 
 ## Install skills
