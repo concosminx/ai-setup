@@ -29,6 +29,12 @@
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills): A single CLAUDE.md file to improve Claude Code behavior
 - [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides): Create beautiful slides on the web using a coding agent's frontend skills
 - [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline): Beautiful highly customizable statusline for Claude Code CLI
+- [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD): Breakthrough Method for Agile Ai Driven Development
+- [slavingia/skills](https://github.com/slavingia/skills): Based on The Minimalist Entrepreneur by Sahil Lavingia
+- [browserbase/stagehand](https://github.com/browserbase/stagehand): The SDK For Browser Agents
+- [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop): A skill file for removing AI tells from prose
+- [msitarzewski/agency-agents](github.com/msitarzewski/agency-agents): A complete AI agency at your fingertips
+- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 817 structured cybersecurity skills for AI agents
 - 
 
 ## Install skills
