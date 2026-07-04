@@ -35,6 +35,11 @@
 - [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop): A skill file for removing AI tells from prose
 - [msitarzewski/agency-agents](github.com/msitarzewski/agency-agents): A complete AI agency at your fingertips
 - [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 817 structured cybersecurity skills for AI agents
+- [coleam00/context-engineering-intro](https://github.com/coleam00/context-engineering-intro): Context engineering is the new vibe coding
+- [wshobson/agents](https://github.com/wshobson/agents): Multi-harness agentic plugin marketplace for Claude Code
+- [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks): A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
+- [https://github.com/NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production): End-to-end, code-first tutorials for building production-grade GenAI agents.
+- [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills): The secure, validated skill registry for professional AI coding agents.
 - 
 
 ## Install skills
