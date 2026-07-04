@@ -12,7 +12,9 @@
 - [glittercowboy/taches-cc-resources](https://github.com/glittercowboy/taches-cc-resources): A resource collection for Claude Code, featuring tools, guides, and assets to support automation and AI workflows.
 - [browser-use/browser-use](https://github.com/browser-use/browser-use): Tools and scripts for browser automation, scraping, and web interaction workflows.
 - [anthropics/skills](https://github.com/anthropics/skills): A collection of skills, templates, and resources for enhancing Claude and other AI agent capabilities.
-
+- [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev): Ready to use UI transitions
+- [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph): Turns natural language descriptions into polished SVG diagrams
+- 
 
 ## Install skills
 ### Anthropic Skills:
@@ -59,6 +61,8 @@ npm install -g @googleworkspace/cli
 gws mcp -s drive,gmail,calendar,sheets
 
 npx skills add https://github.com/googleworkspace/cli
+
+
 
 # Claude now has direct access to these APIs
 ```# View the latest report
