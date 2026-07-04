@@ -40,6 +40,15 @@
 - [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks): A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
 - [https://github.com/NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production): End-to-end, code-first tutorials for building production-grade GenAI agents.
 - [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills): The secure, validated skill registry for professional AI coding agents.
+- [blader/humanizer](https://github.com/blader/humanizer): Claude Code skill that removes signs of AI-generated writing from text
+- [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory): Memory and context engine + app that is extremely fast, scalable, and can be run fully locally.
+- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill): Gives your AI good taste. stops the AI from generating boring, generic slop
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms
+- [pbakaus/impeccable](https://github.com/pbakaus/impeccable): The design language that makes your AI harness better at design.
+- [Pimzino/claude-code-spec-workflow](https://github.com/Pimzino/claude-code-spec-workflow): Automated workflows for Claude Code.
+- [OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows): Workflows and configurations
+- [mattpocock/sandcastle](https://github.com/mattpocock/sandcastle): Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()
+- [Digidai/product-manager-skills](https://github.com/Digidai/product-manager-skills): PM skill for Claude Code
 - 
 
 ## Install skills
