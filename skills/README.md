@@ -1,5 +1,6 @@
-## Useful AI/Automation Skills Repositories
+## Useful AI/Automation Repositories
 
+- [mattpocock/skills](https://github.com/mattpocock/skills): These skills are designed to be small, easy to adapt, and composable
 - [obra/superpowers](https://github.com/obra/superpowers): A collection of scripts and tools to enhance developer productivity and automation, providing "superpowers" for various workflows.
 - [GWUDCAP/cc-sessions](https://github.com/GWUDCAP/cc-sessions): Resources and session materials from the GWU Data, Code, and Policy (DCAP) group, focused on collaborative coding and data science practices.
 - [ayoubben18/ab-method](https://github.com/ayoubben18/ab-method): Implementation and resources for the AB-Method, a technique for data analysis and machine learning experimentation.
@@ -11,16 +12,76 @@
 - [glittercowboy/taches-cc-resources](https://github.com/glittercowboy/taches-cc-resources): A resource collection for Claude Code, featuring tools, guides, and assets to support automation and AI workflows.
 - [browser-use/browser-use](https://github.com/browser-use/browser-use): Tools and scripts for browser automation, scraping, and web interaction workflows.
 - [anthropics/skills](https://github.com/anthropics/skills): A collection of skills, templates, and resources for enhancing Claude and other AI agent capabilities.
+<<<<<<< HEAD
 - [prompt-master](https://github.com/nidhinjs/prompt-master): A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted.
 
+=======
+- [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev): Ready to use UI transitions
+- [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph): Turns natural language descriptions into polished SVG diagrams
+- [ksimback/looper](https://github.com/ksimback/looper): Design visual, review-gated agent loops for Claude Code before you run them
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill): AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web
+- [garrytan/gstack](https://github.com/garrytan/gstack): Opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
+- [remotion-dev/remotion](https://github.com/remotion-dev/remotion): Video tools for the agent era
+- [rebelytics/one-skill-to-rule-them-all](https://github.com/rebelytics/one-skill-to-rule-them-all): The meta-skill that builds and improves all your skills
+- [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem): Persistent Context Across Sessions for Every Agent
+- [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core): Git. Ship. Done - Core
+- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman): Caveman
+- [wshobson/commands](https://github.com/wshobson/commands): A collection of production-ready slash commands for Claude Code
+- [snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks): A simple task management system for managing AI dev agents
+- [automazeio/ccpm](https://github.com/automazeio/ccpm): Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.
+- [ruvnet/ruflo](https://github.com/ruvnet/ruflo): The leading agent meta-harness.
+- [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills): A single CLAUDE.md file to improve Claude Code behavior
+- [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides): Create beautiful slides on the web using a coding agent's frontend skills
+- [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline): Beautiful highly customizable statusline for Claude Code CLI
+- [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD): Breakthrough Method for Agile Ai Driven Development
+- [slavingia/skills](https://github.com/slavingia/skills): Based on The Minimalist Entrepreneur by Sahil Lavingia
+- [browserbase/stagehand](https://github.com/browserbase/stagehand): The SDK For Browser Agents
+- [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop): A skill file for removing AI tells from prose
+- [msitarzewski/agency-agents](github.com/msitarzewski/agency-agents): A complete AI agency at your fingertips
+- [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 817 structured cybersecurity skills for AI agents
+- [coleam00/context-engineering-intro](https://github.com/coleam00/context-engineering-intro): Context engineering is the new vibe coding
+- [wshobson/agents](https://github.com/wshobson/agents): Multi-harness agentic plugin marketplace for Claude Code
+- [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks): A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
+- [https://github.com/NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production): End-to-end, code-first tutorials for building production-grade GenAI agents.
+- [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills): The secure, validated skill registry for professional AI coding agents.
+- [blader/humanizer](https://github.com/blader/humanizer): Claude Code skill that removes signs of AI-generated writing from text
+- [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory): Memory and context engine + app that is extremely fast, scalable, and can be run fully locally.
+- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill): Gives your AI good taste. stops the AI from generating boring, generic slop
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms
+- [pbakaus/impeccable](https://github.com/pbakaus/impeccable): The design language that makes your AI harness better at design.
+- [Pimzino/claude-code-spec-workflow](https://github.com/Pimzino/claude-code-spec-workflow): Automated workflows for Claude Code.
+- [OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows): Workflows and configurations
+- [mattpocock/sandcastle](https://github.com/mattpocock/sandcastle): Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()
+- [Digidai/product-manager-skills](https://github.com/Digidai/product-manager-skills): PM skill for Claude Code
+- 
+>>>>>>> 439554c7edafbe882501a9c8f038aa270976a02f
 
 ## Install skills
+### Anthropic Skills:
+- pdf `npx skills add https://github.com/anthropics/skills --skill pdf`
+- docx `npx skills add https://github.com/anthropics/skills --skill docx`
+- pptx `npx skills add https://github.com/anthropics/skills --skill pptx`
+- xlsx `npx skills add https://github.com/anthropics/skills --skill xlsx`
+- canvas-design `npx skills add https://github.com/anthropics/skills --skill canvas-design`
+- internal-comms `npx skills add https://github.com/anthropics/skills --skill internal-comms`
+- frontend-design `npx skills add https://github.com/anthropics/skills --skill frontend-design`
+- doc-coauthoring `npx skills add https://github.com/anthropics/skills --skill doc-coauthoring`
+- skill-creator `npx skills add https://github.com/anthropics/skills --skill skill-creator`
+- web-artifacts-builder `npx skills add https://github.com/anthropics/skills --skill web-artifacts-builder`
+- slack-gif-creator `npx skills add https://github.com/anthropics/skills --skill slack-gif-creator`
 
-- Code Reviewer: `npx claude-code-templates@latest --skill development/code-reviewer`
-- Excalidraw Diagram Generator: `npx skills add https://github.com/coleam00/excalidraw-diagram-skill --skill excalidraw-diagram`
+### Awesome-Skills
+- javascript-mastery: `npx skills add https://github.com/sickn33/antigravity-awesome-skills --skill javascript-mastery`
+ 
+### Matt Pocock skills
+- `npx skills@latest add mattpocock/skills`
+- see also [5 Agent Skills I Use Every Day](https://www.aihero.dev/5-agent-skills-i-use-every-day)
+ 
 
-How to use: 
+### Excalidraw Diagram Generator: 
+- `npx skills add https://github.com/coleam00/excalidraw-diagram-skill --skill excalidraw-diagram`
 
+- How to use: 
 ```html
 Create an Excalidraw diagram showing how a request flows through
 our API gateway, auth middleware, and downstream services
@@ -30,7 +91,7 @@ Draw a sequence diagram for our OAuth2 PKCE flow including
 the browser, authorization server, and resource server
 ```
 
-- Google Workspace (GWS) Skills
+### Google Workspace (GWS) Skills
 
 ```sh
 # Install
@@ -41,44 +102,9 @@ gws mcp -s drive,gmail,calendar,sheets
 
 npx skills add https://github.com/googleworkspace/cli
 
+
+
 # Claude now has direct access to these APIs
-```
-
-- Shannon - Autonomous AI Pentester: `npx skills add unicodeveloper/shannon`
-
-```sh
-# Full pentest of a local app
-
-/shannon http://localhost:3000 myapp
-
-# Target specific vulnerability categories
-/shannon - scope=xss,injection http://localhost:8080 frontend
-
-# Named workspace (for resuming if interrupted)
-/shannon - workspace=audit-q1 http://staging.example.com backend-api
-
-# Check status of a running pentest
-/shannon status
-
-# View the latest report
+```# View the latest report
 /shannon results
 ```
-
-- Anthropic Skills:
-  - pdf `npx skills add https://github.com/anthropics/skills --skill pdf`
-  - docx `npx skills add https://github.com/anthropics/skills --skill docx`
-  - pptx `npx skills add https://github.com/anthropics/skills --skill pptx`
-  - xlsx `npx skills add https://github.com/anthropics/skills --skill xlsx`
-  - canvas-design `npx skills add https://github.com/anthropics/skills --skill canvas-design`
-  - internal-comms `npx skills add https://github.com/anthropics/skills --skill internal-comms`
-  - frontend-design `npx skills add https://github.com/anthropics/skills --skill frontend-design`
-  - doc-coauthoring `npx skills add https://github.com/anthropics/skills --skill doc-coauthoring`
-  - skill-creator `npx skills add https://github.com/anthropics/skills --skill skill-creator`
-  - web-artifacts-builder `npx skills add https://github.com/anthropics/skills --skill web-artifacts-builder`
-  - slack-gif-creator `npx skills add https://github.com/anthropics/skills --skill slack-gif-creator`
-
-- Awesome-Skills
-  - javascript-mastery: `npx skills add https://github.com/sickn33/antigravity-awesome-skills --skill javascript-mastery`
- 
-- Matt Pocock skills
-  - `npx skills@latest add mattpocock/skills`
