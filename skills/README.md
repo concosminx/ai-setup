@@ -12,10 +12,7 @@
 - [glittercowboy/taches-cc-resources](https://github.com/glittercowboy/taches-cc-resources): A resource collection for Claude Code, featuring tools, guides, and assets to support automation and AI workflows.
 - [browser-use/browser-use](https://github.com/browser-use/browser-use): Tools and scripts for browser automation, scraping, and web interaction workflows.
 - [anthropics/skills](https://github.com/anthropics/skills): A collection of skills, templates, and resources for enhancing Claude and other AI agent capabilities.
-<<<<<<< HEAD
 - [prompt-master](https://github.com/nidhinjs/prompt-master): A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted.
-
-=======
 - [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev): Ready to use UI transitions
 - [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph): Turns natural language descriptions into polished SVG diagrams
 - [ksimback/looper](https://github.com/ksimback/looper): Design visual, review-gated agent loops for Claude Code before you run them
@@ -53,8 +50,6 @@
 - [OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows): Workflows and configurations
 - [mattpocock/sandcastle](https://github.com/mattpocock/sandcastle): Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()
 - [Digidai/product-manager-skills](https://github.com/Digidai/product-manager-skills): PM skill for Claude Code
-- 
->>>>>>> 439554c7edafbe882501a9c8f038aa270976a02f
 
 ## Install skills
 ### Anthropic Skills:
@@ -101,10 +96,4 @@ npm install -g @googleworkspace/cli
 gws mcp -s drive,gmail,calendar,sheets
 
 npx skills add https://github.com/googleworkspace/cli
-
-
-
-# Claude now has direct access to these APIs
-```# View the latest report
-/shannon results
 ```
